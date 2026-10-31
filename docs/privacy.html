@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A/B Spy privacy policy</title>
+  <style>
+    :root { --bg: #f7f1e8; --ink: #2a1a1c; --muted: #7b6a66; --accent: #7a1f2b; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #1b1415; --ink: #f3ebe2; --muted: #a8988f; --accent: #e0848f; } }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+    h1 { font-size: 32px; line-height: 1.2; letter-spacing: -0.02em; color: var(--accent); margin: 0 0 4px; }
+    h2 { font-size: 19px; margin: 32px 0 6px; }
+    p, li { margin: 0 0 12px; }
+    .date { color: var(--muted); margin-bottom: 28px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>A/B Spy privacy policy</h1>
+  <p class="date">Last updated 31 October 2026</p>
+
+  <p>A/B Spy is a Chrome extension that shows the A/B tests a website is running. In short: it collects no data about you, and nothing it reads ever leaves your browser.</p>
+
+  <h2>What the extension reads</h2>
+  <p>On the web pages you open, A/B Spy reads the test settings that testing tools such as Optimizely or VWO have already sent to your browser. It turns them into a list of tests and versions that you can see in the extension's popup.</p>
+
+  <h2>Where that information goes</h2>
+  <p>Nowhere. The list is kept in your browser's temporary session storage, one entry per open tab, and is deleted when you close the tab or the browser. A/B Spy has no server, no analytics, no tracking and no account. It does not sell, share or transfer any data, because it never has any.</p>
+
+  <h2>What it does not collect</h2>
+  <ul>
+    <li>No personal information, such as your name, email address or location.</li>
+    <li>No browsing history. It does not keep a record of the sites you visit.</li>
+    <li>No page content, form entries, passwords, cookies or messages.</li>
+  </ul>
+
+  <h2>Images in the popup</h2>
+  <p>When a test version uses a new image, the popup shows a small preview loaded from the website's own image address, the same way the website itself would load it. No referrer is sent with these requests.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Access to websites</strong>: needed to read the test settings on the page you are viewing.</li>
+    <li><strong>Storage</strong>: keeps each tab's list until you close the tab.</li>
+    <li><strong>Scripting</strong>: lets the popup check tabs that were already open before you installed the extension.</li>
+  </ul>
+
+  <h2>Changes and questions</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new date. For questions, open an issue on the A/B Spy project page on GitHub.</p>
+</main>
+</body>
+</html>
