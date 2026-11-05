@@ -8,7 +8,7 @@ Copy each field into the matching box in the Chrome Web Store developer dashboar
 A/B Spy
 
 **Summary** (comes from manifest.json, max 132 characters)
-See the A/B tests a website is running right now: every version of the headline, button and page, including the ones you aren't shown.
+See the A/B tests a website is running right now: every version of the headline, button and page, even the ones you aren't shown.
 
 **Description**
 
