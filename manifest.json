@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "A/B Spy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "See the A/B tests a website is running right now: every version of the headline, button and page, including the ones you aren't shown.",
   "minimum_chrome_version": "111",
   "action": {
