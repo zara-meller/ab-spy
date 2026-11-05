@@ -42,8 +42,9 @@ English
 
 **Graphics** (all in this folder)
 - Store icon: `../icons/icon128.png`
-- Screenshots (1280×800): `screenshot-1.png`, `screenshot-2.png`, `screenshot-3.png`
+- Screenshots (1280×800): `screenshot-1.png` to `screenshot-5.png`
 - Small promo tile (440×280): `promo-small.png`
+- Marquee promo tile (1400×560): `promo-marquee.png`
 
 **Privacy policy URL** (once GitHub Pages is on, see the README steps)
 https://YOUR-GITHUB-USERNAME.github.io/ab-spy/privacy.html
